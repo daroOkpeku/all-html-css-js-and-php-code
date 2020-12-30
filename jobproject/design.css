@@ -1,0 +1,97 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.nav{
+    width:100%;
+    background-color:rgba(218, 165, 32, 0.76);
+    color:white;
+    height:60px;
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    justify-content: space-between;
+}
+.nav h3{
+    margin-left:20px;
+}
+
+.nav a {
+    margin-right:10px;
+    font-size: x-large;
+    color:white;
+    text-decoration:none;
+}
+.main{
+    transform:translateY(10%);
+    width:80%;
+    margin:auto;
+}
+.main p{
+    color:rgba(218, 165, 32, 0.76);
+}
+
+img{
+    width: 200px;
+    height: 150px;
+    border-radius: 84px;
+    border: 1px solid gold;
+    outline: none;
+}
+
+.icon{
+    color:rgba(218, 165, 32, 0.76);
+    display: flex;
+    justify-content: space-between;
+}
+.icon a{
+    text-decoration: none;
+     color:rgba(218, 165, 32, 0.76);
+}
+.cool{
+    font-size: x-large;
+}
+
+.all{
+    
+ margin: auto;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.all p{
+    margin:25px;
+}
+.second{
+    margin-right:250px;
+}
+
+.key{
+     margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.key p{
+    margin:25px;
+}
+.live{
+ 
+    
+}
+
+.die{
+    right:2%;
+    float:right;
+       margin-top:5%;
+      
+    position: absolute;
+}
+.die button{
+    padding:0.5rem;
+    background-color:rgba(218, 165, 32, 0.76);
+    outline:none;
+    border: none;
+    color:white;
+}
