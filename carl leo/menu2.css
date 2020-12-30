@@ -1,0 +1,81 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.into {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: darkgoldenrod;
+  flex-direction: column;
+}
+
+.underline {
+  border: 1px solid deepskyblue;
+  width: 90px;
+}
+
+img {
+  width: 250px;
+  height: 150px;
+  border-radius: 4px 4px 4px 4px;
+  border: 2px solid rgba(222, 184, 135, 0.897);
+  object-fit: cover;
+}
+.words {
+  width: 400px;
+  height: 200px;
+  margin: 0.5rem;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid goldenrod;
+}
+.menu-items {
+  display: flex;
+  margin: 2%;
+}
+.section-center {
+  margin-top: 14vh;
+  margin: auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-column-gap: 14rem;
+  grid-row-gap: 1rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.filter-btn {
+  margin: 10px;
+  width: 100px;
+  height: 30px;
+  background-color: rgba(218, 165, 32, 0.895);
+  color: white;
+  border-radius: 3px 3px 3px 3px;
+  outline: none;
+  border: none;
+}
+.btn {
+  width: 60px;
+  height: 25px;
+  border-radius: 3px 3px 3px 3px;
+  background-color: rgba(218, 165, 32, 0.883);
+  color: white;
+  outline: none;
+  border: none;
+  transition: ease-in-out 0.2s;
+}
+
+.btn:hover {
+  color: rgba(218, 165, 32, 0.883);
+  background-color: transparent;
+}

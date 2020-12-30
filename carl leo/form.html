@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>form</title>
+    <style type="text/css">
+      .content {
+        display: flex;
+      }
+      .all {
+        transform: translateY(5%);
+        margin: auto;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        color: goldenrod;
+        width: 300px;
+        border: 0.2px solid black;
+        padding: 2rem;
+        border-radius: 3px 3px 3px 3px;
+        box-shadow: 5px 10px 15px rgb(0, 0, 0, 0.2);
+      }
+      input {
+        padding: 0.5rem;
+        width: 200px;
+        border: 0.7 solid;
+        border-left-color: rgba(218, 165, 32, 0.63);
+        outline: none;
+        border-radius: 4px 4px 4px 4px;
+      }
+      .form {
+        margin: 5px;
+      }
+      .click {
+        padding: 0.5rem;
+        background-color: rgba(218, 165, 32, 0.774);
+        color: white;
+        width: 100px;
+        outline: none;
+        border: none;
+        border-radius: 2px 2px 2px 2px;
+        transition: ease-in-out 0.2s;
+      }
+      .click:hover {
+        color: rgba(218, 165, 32, 0.76);
+        background-color: transparent;
+      }
+      .side {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        color: goldenrod;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="side">
+      <h3><span>product name:</span></h3>
+      <h3><span>Colors:Red, Yellow, Black, White and Brown etc.</span></h3>
+      <h3><span>size:L, XL, XXL</span></h3>
+      <h3><span>price:</span></h3>
+      <h3><span>gender:</span></h3>
+    </div>
+    <div class="all">
+      <h4>enter your details to <br />purchase the product</h4>
+      <div class="form">
+        <label class="content">
+          <span class="name">Name</span>
+        </label>
+        <input type="text" name="name" placeholder="enter your full name" autocomplete="off" required />
+      </div>
+
+      <div class="form">
+        <label class="content">
+          <span class="name">Address</span>
+        </label>
+        <input type="text" name="name" placeholder="enter your Address" autocomplete="off" required />
+      </div>
+
+      <div class="form">
+        <label class="content">
+          <span class="name">Email</span>
+        </label>
+        <input type="text" name="name" placeholder="enter your email address" autocomplete="off" required />
+      </div>
+
+      <div class="form">
+        <label class="content">
+          <span class="name">Product name</span>
+        </label>
+        <input type="text" name="name" placeholder="enter the  product name" autocomplete="off" required />
+      </div>
+
+      <div class="form">
+        <label class="content">
+          <span class="name">Color</span>
+        </label>
+        <input
+          type="text"
+          name="name"
+          placeholder="enter color of the product "
+          autocomplete="off"
+          required
+        />
+      </div>
+
+      <div class="form">
+        <label class="content">
+          <span class="name">Size</span>
+        </label>
+        <input
+          type="text"
+          name="name"
+          placeholder="enter the size of the product"
+          autocomplete="off"
+          required
+        />
+      </div>
+      <button type="button" class="click">enter</button>
+    </div>
+  </body>
+</html>
